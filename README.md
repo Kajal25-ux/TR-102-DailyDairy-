@@ -128,5 +128,32 @@
 
 ---
 
-> 📌 *More days will be added as the training progresses…*
+# 📝 Day 6  
+📅 **Date:** 2 July 2025  
 
+---
+
+## 📚 Topics Covered
+- Introduction to **Data Preprocessing** in Machine Learning  
+- Understanding **Train-Test Split** (80% training, 20% testing)  
+- Key Preprocessing Techniques:
+  - Handling **Missing Values** (NaN)
+  - **Scaling** using `MinMaxScaler`
+  - **Normalization**
+
+- Installation of important Python libraries:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+
+---
+
+## ✅ Task Given
+1. Create a CSV file named `student_data.csv` including:
+   - **Columns:** Name, ID, Math, Science, English
+   - **Rows:** 5–10 entries with some missing values (NaN)
+2. Load the dataset into a **pandas DataFrame**
+3. Count missing values in each column using:
+   ```python
+   df.isnull().sum()
+   
